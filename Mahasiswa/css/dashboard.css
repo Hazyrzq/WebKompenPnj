@@ -1,0 +1,135 @@
+/* Profile Container */
+.profile-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.profile-menu:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-menu i {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+    width: 20px;
+    text-align: center;
+}
+
+/* Dropdown Menu - Base */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0; /* Mengubah dari right ke left */
+    width: 100%; /* Full width untuk menyesuaikan dengan parent */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    z-index: 1000;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+/* Dropdown Items */
+.dropdown-menu a,
+.dropdown-menu .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu .nav-link:hover {
+    background-color: rgba(99, 102, 241, 0.1);
+}
+
+.dropdown-menu a i,
+.dropdown-menu .nav-link i {
+    font-size: 1rem;
+    margin-right: 0.75rem;
+    color: var(--text-secondary);
+    width: 20px;
+    text-align: center;
+}
+
+/* Remove special nav-link styles */
+.dropdown-menu .nav-link {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background: none;
+}
+
+.dropdown-menu .nav-link.active {
+    background: none;
+    color: var(--text-primary);
+}
+
+/* Collapsed Sidebar Adjustments */
+#sidebar.collapsed .profile-menu {
+    padding: 0.75rem;
+    justify-content: center;
+}
+
+#sidebar.collapsed .profile-menu i {
+    margin-right: 0;
+}
+
+#sidebar.collapsed .profile-menu .nav-text {
+    display: none;
+}
+
+#sidebar.collapsed .dropdown-menu {
+    position: fixed;
+    left: 70px;
+    bottom: 15px;
+    width: auto;
+    min-width: 180px;
+    margin-left: 0.5rem;
+}
+
+#sidebar.collapsed .dropdown-menu a,
+#sidebar.collapsed .dropdown-menu .nav-link {
+    padding: 0.75rem 1rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 0.5rem;
+    }
+
+    .dropdown-menu {
+        position: fixed;
+        left: 60px;
+        bottom: 15px;
+        min-width: 160px;
+    }
+
+    #sidebar.collapsed .dropdown-menu {
+        left: 60px;
+    }
+}

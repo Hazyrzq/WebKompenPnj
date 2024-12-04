@@ -1,0 +1,223 @@
+.stats-container { margin-top: 1rem; }
+.stats-card {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    height: 100%;
+}
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.stats-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+.stats-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+.total-card .stats-icon {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+.remaining-card .stats-icon {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+.progress-card .stats-icon {
+    background: linear-gradient(135deg, #10b981, #059669);
+}
+.stats-info {
+    flex-grow: 1;
+}
+.stats-info h3 {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+}
+.stats-value {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+}
+.progress-wrapper {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+.progress {
+    height: 8px;
+    border-radius: 4px;
+    background: #e5e7eb;
+    overflow: hidden;
+}
+.progress-bar {
+    border-radius: 4px;
+    background: linear-gradient(to right, #10b981, #059669);
+    transition: width 0.6s ease;
+}
+.submission-history {
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: white;
+}
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1.25rem 1.5rem;
+}
+.submission-date {
+    text-align: center;
+    line-height: 1;
+    background: #f3f4f6;
+    padding: 0.5rem;
+    border-radius: 8px;
+    min-width: 60px;
+}
+.submission-date .date {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+}
+.submission-date .month {
+    font-size: 0.75rem;
+    color: #6b7280;
+    text-transform: uppercase;
+}
+.submission-code {
+    font-family: monospace;
+    padding: 0.25rem 0.5rem;
+    background: #f3f4f6;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: #374151;
+}
+.hours-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    display: inline-block;
+}
+.work-list {
+    max-width: 300px;
+    font-size: 0.875rem;
+    color: #374151;
+    line-height: 1.4;
+}
+.empty-state {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.empty-icon {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+}
+.empty-state h4 {
+    color: #374151;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.actions .btn {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.875rem;
+}
+.actions .btn-light {
+    background: #f3f4f6;
+    border: none;
+}
+.actions .btn-light:hover {
+    background: #e5e7eb;
+}
+.table > :not(caption) > * > * {
+    padding: 1rem 1.5rem;
+}
+.table thead th {
+    font-weight: 600;
+    color: #4b5563;
+    background: #f9fafb;
+    border-bottom: 2px solid #e5e7eb;
+}
+.free-kompen-card {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e6f4f1 100%);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.1);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.success-icon {
+    color: #0ea5e9;
+    font-size: 1.5rem;
+    background: rgba(14, 165, 233, 0.1);
+    padding: 0.75rem;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.free-kompen-title {
+    color: #0f172a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.free-kompen-text {
+    color: #475569;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.free-kompen-divider {
+    border-top: 1px solid rgba(203, 213, 225, 0.4);
+    margin: 1.5rem 0;
+}
+
+.download-btn {
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background: #0284c7;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
+}
+
+.download-icon {
+    font-size: 1.25rem;
+}
+@media (max-width: 768px) {
+    .stats-card { padding: 1rem; }
+    .stats-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .stats-value { font-size: 1rem; }
+    .work-list { max-width: 200px; }
+    .submission-date { min-width: 50px; }
+}

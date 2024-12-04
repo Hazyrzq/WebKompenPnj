@@ -1,0 +1,305 @@
+[28-Nov-2024 06:47:49 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php on line 14
+[28-Nov-2024 06:47:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php on line 14
+[28-Nov-2024 06:48:45 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php on line 14
+[28-Nov-2024 06:48:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\KOMPEN_MHS\Mahasiswa\get_snap_token.php on line 14
+[28-Nov-2024 12:49:52 Asia/Jakarta] Starting payment process...
+[28-Nov-2024 12:49:52 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413014
+    [amount] => 580000
+)
+
+[28-Nov-2024 12:49:52 Asia/Jakarta] Student data found: Array
+(
+    [NAMA] => Aufa Kautsar Ahmad
+    [PRODI] => TI
+)
+
+[28-Nov-2024 12:49:52 Asia/Jakarta] Midtrans parameters: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => KOMPEN-2307413014-1732772992
+            [gross_amount] => 580000
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Aufa Kautsar Ahmad
+            [email] => 2307413014@student.example.com
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => KOMPEN-1
+                    [price] => 580000
+                    [quantity] => 1
+                    [name] => Pembayaran Kompen TI
+                )
+
+        )
+
+)
+
+[28-Nov-2024 12:49:54 Asia/Jakarta] Snap token obtained: a2ae0b7f-271f-4041-9d55-1daeeda2826c
+[28-Nov-2024 12:49:54 Asia/Jakarta] Database Error: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("ABIMANYU"."TBL_MIDTRANS_TRANSACTIONS"."TRANSACTION_ID")
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 12:49:54 Asia/Jakarta] Final Error Handler: Database error: SQLSTATE[HY000]: General error: 1400 OCIStmtExecute: ORA-01400: cannot insert NULL into ("ABIMANYU"."TBL_MIDTRANS_TRANSACTIONS"."TRANSACTION_ID")
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 12:51:16 Asia/Jakarta] Starting payment process...
+[28-Nov-2024 12:51:16 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413014
+    [amount] => 580000
+)
+
+[28-Nov-2024 12:51:16 Asia/Jakarta] Student data found: Array
+(
+    [NAMA] => Aufa Kautsar Ahmad
+    [PRODI] => TI
+)
+
+[28-Nov-2024 12:51:16 Asia/Jakarta] Midtrans parameters: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => KOMPEN-2307413014-1732773076
+            [gross_amount] => 580000
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Aufa Kautsar Ahmad
+            [email] => 2307413014@student.example.com
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => KOMPEN-1
+                    [price] => 580000
+                    [quantity] => 1
+                    [name] => Pembayaran Kompen TI
+                )
+
+        )
+
+)
+
+[28-Nov-2024 12:51:17 Asia/Jakarta] Snap token obtained: 258b5eb6-3d83-4b4d-b068-e3d60c29d637
+[28-Nov-2024 12:51:17 Asia/Jakarta] Database transaction committed successfully
+[28-Nov-2024 12:51:59 Asia/Jakarta] Starting payment process...
+[28-Nov-2024 12:51:59 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413014
+    [amount] => 580000
+)
+
+[28-Nov-2024 12:51:59 Asia/Jakarta] Student data found: Array
+(
+    [NAMA] => Aufa Kautsar Ahmad
+    [PRODI] => TI
+)
+
+[28-Nov-2024 12:51:59 Asia/Jakarta] Midtrans parameters: Array
+(
+    [transaction_details] => Array
+        (
+            [order_id] => KOMPEN-2307413014-1732773119
+            [gross_amount] => 580000
+        )
+
+    [customer_details] => Array
+        (
+            [first_name] => Aufa Kautsar Ahmad
+            [email] => 2307413014@student.example.com
+        )
+
+    [item_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => KOMPEN-1
+                    [price] => 580000
+                    [quantity] => 1
+                    [name] => Pembayaran Kompen TI
+                )
+
+        )
+
+)
+
+[28-Nov-2024 12:51:59 Asia/Jakarta] Snap token obtained: fd863b7f-4e2c-4762-8199-7661af3928d0
+[28-Nov-2024 12:51:59 Asia/Jakarta] Database transaction committed successfully
+[28-Nov-2024 13:05:06 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:08:55 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:09:41 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:11:15 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:11:55 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\KOMPEN_MHS\vendor\midtrans\midtrans-php\Midtrans\ApiRequestor.php on line 150
+[28-Nov-2024 13:15:44 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:17:42 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:17:43 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 13:17:48 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:17:49 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 13:18:44 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:18:46 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 13:22:21 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:22:28 Asia/Jakarta] Midtrans Error: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+[28-Nov-2024 13:22:28 Asia/Jakarta] Error: Error from payment gateway: CURL Error: Could not resolve host: app.sandbox.midtrans.com
+[28-Nov-2024 13:24:20 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 13:24:22 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:28:56 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:28:57 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:29:01 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:29:02 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:29:13 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:29:13 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:30:41 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:30:41 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:46:19 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:46:19 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:49:47 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 15:49:48 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 4098 OCIStmtExecute: ORA-04098: trigger 'ABIMANYU.TRG_AUTO_PAYMENT_SUCCESS' is invalid and failed re-validation
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 15:52:01 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 16:10:43 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 16:10:46 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 17:20:13 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 17:20:14 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "MIDTRANS_TOKEN": invalid identifier
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 17:20:18 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 17:20:19 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "MIDTRANS_TOKEN": invalid identifier
+ (ext\pdo_oci\oci_statement.c:155)
+[28-Nov-2024 17:21:54 Asia/Jakarta] Input received: Array
+(
+    [nim] => 2307413012
+    [amount] => 30000
+)
+
+[28-Nov-2024 17:21:55 Asia/Jakarta] Error: Database error: SQLSTATE[HY000]: General error: 904 OCIStmtExecute: ORA-00904: "MIDTRANS_TOKEN": invalid identifier
+ (ext\pdo_oci\oci_statement.c:155)
+[29-Nov-2024 00:33:07 Asia/Jakarta] Request received: 
+[29-Nov-2024 00:33:07 Asia/Jakarta] Error occurred: Invalid JSON input: Syntax error

@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.4",
+        "tecnickcom/tcpdf": "^6.7",
+        "phpmailer/phpmailer": "^6.9",
+        "midtrans/midtrans-php": "^2.6",
+        "gregwar/captcha": "^1.2"
+    }
+}

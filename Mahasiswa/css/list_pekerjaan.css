@@ -1,0 +1,116 @@
+.job-listing-container {
+    background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.search-input {
+    border: 2px solid #e2e8f0;
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.search-input:focus-within {
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px rgba(147,197,253,0.3);
+}
+
+.custom-select {
+    border: 2px solid #e2e8f0;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1rem;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'%236b7280\'%3e%3cpath stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19 9l-7 7-7-7\'%3e%3c/path%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.custom-select:focus {
+    border-color: #93c5fd;
+    box-shadow: 0 0 0 3px rgba(147,197,253,0.3);
+    outline: none;
+}
+
+.job-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.job-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.08);
+}
+
+.job-title {
+    color: #1e40af;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.job-code {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.job-info {
+    display: flex;
+    align-items: center;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    font-size: 0.925rem;
+}
+
+.job-info i {
+    width: 1.25rem;
+    color: #3b82f6;
+}
+
+.slot-available {
+    background: #f0fdf4;
+    color: #166534;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.slot-full {
+    background: #fef2f2;
+    color: #991b1b;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.details-section {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #4b5563;
+}
+
+.pagination .page-link {
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.5rem;
+    color: #1e40af;
+    transition: all 0.2s ease;
+}
+
+.pagination .page-link:hover {
+    background: #eff6ff;
+}
+
+.pagination .page-item.active .page-link {
+    background: #3b82f6;
+    color: white;
+}
